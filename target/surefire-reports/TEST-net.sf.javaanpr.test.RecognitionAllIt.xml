@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sf.javaanpr.test.RecognitionAllIt" time="0.031" tests="97" errors="0" skipped="0" failures="44">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="DK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="net.sf.javaanpr.test.RecognitionAllIt"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Micha\Documents\NetBeansProjects\javaanpr"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Micha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\Micha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\Micha\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Micha\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Micha"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Micha"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=net.sf.javaanpr.test.RecognitionAllIt -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="da"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test_addTwoNumbes[0]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.009">
+    <failure message="&#10;Expected: is &quot;PP587A0&quot;&#10;     but: was &quot;PP587AO&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "PP587A0"
+     but: was "PP587AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+    <system-out><![CDATA[################ KAN JEG SE BEFORE=???
+12:45:38.498 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@42eca56e with form slovensko_nova and offset 0.
+12:45:38.516 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding PP587A0 with required changes 0.0.
+12:45:38.516 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@42eca56e with form ceskoslovenska_novsia and offset 0.
+12:45:38.516 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding PPG8740 with required changes 2.5413024.
+12:45:38.516 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@42eca56e with form ceska_nova and offset 0.
+12:45:38.516 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8P58740 with required changes 2.611884.
+12:45:38.516 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : PP587A0 with required changes 0.0.
+12:45:38.517 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : PPG8740 with required changes 2.5413024.
+12:45:38.517 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8P58740 with required changes 2.611884.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@396e2f39 with form slovensko_nova and offset 0.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK755AJ with required changes 0.0.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@396e2f39 with form ceskoslovenska_novsia and offset 0.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKT5543 with required changes 3.80859.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@396e2f39 with form ceska_nova and offset 0.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K75543 with required changes 3.9295979.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK755AJ with required changes 0.0.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKT5543 with required changes 3.80859.
+12:45:38.865 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K75543 with required changes 3.9295979.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4524411f with form slovensko_nova and offset 0.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding SI819AK with required changes 0.0.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4524411f with form ceskoslovenska_novsia and offset 0.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding SIB1946 with required changes 3.9096615.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4524411f with form ceska_nova and offset 0.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 9A81946 with required changes 5.2543335.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : SI819AK with required changes 0.0.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : SIB1946 with required changes 3.9096615.
+12:45:39.001 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 9A81946 with required changes 5.2543335.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form slovensko_nova and offset 0.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding FR611GA with required changes 2.6575527.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form slovensko_nova and offset 1.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK115AN with required changes 0.0.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form slovensko_nova and offset 2.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KI154NI with required changes 2.6202226.
+12:45:39.120 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form slovensko_nova and offset 3.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IQ540II with required changes 5.387368.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form slovensko_nova and offset 4.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QG407IJ with required changes 8.023025.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceskoslovenska_novsia and offset 0.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding FRK1154 with required changes 1.2850207.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceskoslovenska_novsia and offset 1.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKI1540 with required changes 3.9773686.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceskoslovenska_novsia and offset 2.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KIQ5407 with required changes 6.777368.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceskoslovenska_novsia and offset 3.
+12:45:39.121 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IQG4078 with required changes 9.398227.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceskoslovenska_novsia and offset 4.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QGA0781 with required changes 6.7780037.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceska_nova and offset 0.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6P61154 with required changes 5.2663946.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceska_nova and offset 1.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K11540 with required changes 3.9876192.
+12:45:39.122 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceska_nova and offset 2.
+12:45:39.123 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6A15407 with required changes 6.9238663.
+12:45:39.123 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceska_nova and offset 3.
+12:45:39.123 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1M54078 with required changes 6.9021664.
+12:45:39.124 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@78186a70 with form ceska_nova and offset 4.
+12:45:39.124 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1S40781 with required changes 6.6594954.
+12:45:39.124 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : FR611GA with required changes 2.6575527.
+12:45:39.124 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK115AN with required changes 0.0.
+12:45:39.125 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : KI154NI with required changes 2.6202226.
+12:45:39.125 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : IQ540II with required changes 5.387368.
+12:45:39.125 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : QG407IJ with required changes 8.023025.
+12:45:39.125 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : FRK1154 with required changes 1.2850207.
+12:45:39.125 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 6 : RKI1540 with required changes 3.9773686.
+12:45:39.125 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 7 : KIQ5407 with required changes 6.777368.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 8 : IQG4078 with required changes 9.398227.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 9 : QGA0781 with required changes 6.7780037.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 10 : 6P61154 with required changes 5.2663946.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 11 : 8K11540 with required changes 3.9876192.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 12 : 6A15407 with required changes 6.9238663.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 13 : 1M54078 with required changes 6.9021664.
+12:45:39.126 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 14 : 1S40781 with required changes 6.6594954.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5c18298f with form slovensko_nova and offset 0.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding TS260AK with required changes 1.1013808.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5c18298f with form ceskoslovenska_novsia and offset 0.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding TSZ6044 with required changes 5.0186734.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5c18298f with form ceska_nova and offset 0.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 7S26044 with required changes 5.0936074.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : TS260AK with required changes 1.1013808.
+12:45:39.224 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : TSZ6044 with required changes 5.0186734.
+12:45:39.225 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 7S26044 with required changes 5.0936074.
+12:45:39.314 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6dde5c8c with form slovensko_nova and offset 0.
+12:45:39.314 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK099AN with required changes 0.0.
+12:45:39.314 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6dde5c8c with form ceskoslovenska_novsia and offset 0.
+12:45:39.314 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK09940 with required changes 2.6034598.
+12:45:39.314 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6dde5c8c with form ceska_nova and offset 0.
+12:45:39.315 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K09940 with required changes 3.9559445.
+12:45:39.315 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK099AN with required changes 0.0.
+12:45:39.315 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK09940 with required changes 2.6034598.
+12:45:39.315 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K09940 with required changes 3.9559445.
+12:45:39.419 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7e9a5fbe with form slovensko_nova and offset 0.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK828AG with required changes 0.0.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7e9a5fbe with form ceskoslovenska_novsia and offset 0.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK02840 with required changes 3.509282.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7e9a5fbe with form ceska_nova and offset 0.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 9K82840 with required changes 3.7251778.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK828AG with required changes 0.0.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK02840 with required changes 3.509282.
+12:45:39.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 9K82840 with required changes 3.7251778.
+12:45:39.579 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@80169cf with form slovensko_nova and offset 0.
+12:45:39.579 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LM298AI with required changes 0.0.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@80169cf with form ceskoslovenska_novsia and offset 0.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LMZ9848 with required changes 3.8790967.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@80169cf with form ceska_nova and offset 0.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0M29848 with required changes 3.9920275.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : LM298AI with required changes 0.0.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : LMZ9848 with required changes 3.8790967.
+12:45:39.580 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0M29848 with required changes 3.9920275.
+12:45:39.651 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7f416310 with form slovensko_nova and offset 0.
+12:45:39.651 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MT432J0 with required changes 4.1800003.
+12:45:39.651 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7f416310 with form ceskoslovenska_novsia and offset 0.
+12:45:39.651 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MTA3213 with required changes 2.6591158.
+12:45:39.652 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7f416310 with form ceska_nova and offset 0.
+12:45:39.652 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1T43213 with required changes 0.0.
+12:45:39.652 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : MT432J0 with required changes 4.1800003.
+12:45:39.652 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : MTA3213 with required changes 2.6591158.
+12:45:39.652 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1T43213 with required changes 0.0.
+12:45:39.702 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3d8314f0 with form slovensko_nova and offset 0.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK248AH with required changes 0.0.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3d8314f0 with form ceskoslovenska_novsia and offset 0.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKZ4840 with required changes 3.808128.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3d8314f0 with form ceska_nova and offset 0.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K24840 with required changes 3.8605149.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK248AH with required changes 0.0.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKZ4840 with required changes 3.808128.
+12:45:39.703 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K24840 with required changes 3.8605149.
+12:45:39.778 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7181ae3f with form slovensko_nova and offset 0.
+12:45:39.778 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK346AL with required changes 0.0.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7181ae3f with form ceskoslovenska_novsia and offset 0.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK04640 with required changes 3.8606079.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7181ae3f with form ceska_nova and offset 0.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K34640 with required changes 4.000284.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK346AL with required changes 0.0.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK04640 with required changes 3.8606079.
+12:45:39.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K34640 with required changes 4.000284.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@365c30cc with form slovensko_nova and offset 0.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IR629MA with required changes 2.9418926.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@365c30cc with form ceskoslovenska_novsia and offset 0.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IRK2914 with required changes 1.2485034.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@365c30cc with form ceska_nova and offset 0.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8P62914 with required changes 5.4340286.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IR629MA with required changes 2.9418926.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : IRK2914 with required changes 1.2485034.
+12:45:40.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8P62914 with required changes 5.4340286.
+12:45:40.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4ba2ca36 with form slovensko_nova and offset 0.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK857AI with required changes 0.0.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4ba2ca36 with form ceskoslovenska_novsia and offset 0.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG5748 with required changes 4.00726.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4ba2ca36 with form ceska_nova and offset 0.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K85748 with required changes 3.9998698.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK857AI with required changes 0.0.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG5748 with required changes 4.00726.
+12:45:40.085 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K85748 with required changes 3.9998698.
+12:45:40.130 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@453da22c with form slovensko_nova and offset 0.
+12:45:40.130 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK576AH with required changes 0.0.
+12:45:40.130 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@453da22c with form ceskoslovenska_novsia and offset 0.
+12:45:40.130 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG7641 with required changes 3.910772.
+12:45:40.130 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@453da22c with form ceska_nova and offset 0.
+12:45:40.131 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K57641 with required changes 4.0200567.
+12:45:40.131 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK576AH with required changes 0.0.
+12:45:40.131 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG7641 with required changes 3.910772.
+12:45:40.131 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K57641 with required changes 4.0200567.
+12:45:40.308 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@646be2c3 with form slovensko_nova and offset 0.
+12:45:40.308 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IR6010A with required changes 2.6182609.
+12:45:40.308 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@646be2c3 with form slovensko_nova and offset 1.
+12:45:40.308 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK019AF with required changes 0.0.
+12:45:40.308 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@646be2c3 with form ceskoslovenska_novsia and offset 0.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IRK0194 with required changes 1.2505882.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@646be2c3 with form ceskoslovenska_novsia and offset 1.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK01946 with required changes 2.590923.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@646be2c3 with form ceska_nova and offset 0.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5P60194 with required changes 5.485579.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@646be2c3 with form ceska_nova and offset 1.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K01946 with required changes 3.90511.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IR6010A with required changes 2.6182609.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK019AF with required changes 0.0.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IRK0194 with required changes 1.2505882.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : RK01946 with required changes 2.590923.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 5P60194 with required changes 5.485579.
+12:45:40.309 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 8K01946 with required changes 3.90511.
+12:45:40.387 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@709ba3fb with form slovensko_nova and offset 0.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BB751BH with required changes 1.2306825.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@709ba3fb with form slovensko_nova and offset 1.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BT516HI with required changes 2.5095441.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@709ba3fb with form ceskoslovenska_novsia and offset 0.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BBT5160 with required changes 5.048017.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@709ba3fb with form ceskoslovenska_novsia and offset 1.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BTG1607 with required changes 6.471463.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@709ba3fb with form ceska_nova and offset 0.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8B75160 with required changes 2.5621188.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@709ba3fb with form ceska_nova and offset 1.
+12:45:40.388 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6T51607 with required changes 6.501644.
+12:45:40.389 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : BB751BH with required changes 1.2306825.
+12:45:40.389 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : BT516HI with required changes 2.5095441.
+12:45:40.389 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : BBT5160 with required changes 5.048017.
+12:45:40.389 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : BTG1607 with required changes 6.471463.
+12:45:40.389 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 8B75160 with required changes 2.5621188.
+12:45:40.389 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 6T51607 with required changes 6.501644.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4450d156 with form slovensko_nova and offset 0.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK867AD with required changes 0.0.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4450d156 with form ceskoslovenska_novsia and offset 0.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK06740 with required changes 3.6639698.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4450d156 with form ceska_nova and offset 0.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K86740 with required changes 3.8262224.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK867AD with required changes 0.0.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK06740 with required changes 3.6639698.
+12:45:40.439 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K86740 with required changes 3.8262224.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@770c2e6b with form slovensko_nova and offset 0.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IR488AA with required changes 2.6699998.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@770c2e6b with form slovensko_nova and offset 1.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK884AL with required changes 0.0.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@770c2e6b with form ceskoslovenska_novsia and offset 0.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IRK8844 with required changes 1.4.
+12:45:40.480 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@770c2e6b with form ceskoslovenska_novsia and offset 1.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK08442 with required changes 4.1.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@770c2e6b with form ceska_nova and offset 0.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2P48844 with required changes 5.6.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@770c2e6b with form ceska_nova and offset 1.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K88442 with required changes 4.2400002.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IR488AA with required changes 2.6699998.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK884AL with required changes 0.0.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IRK8844 with required changes 1.4.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : RK08442 with required changes 4.1.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 2P48844 with required changes 5.6.
+12:45:40.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 2K88442 with required changes 4.2400002.
+12:45:40.561 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2d2e5f00 with form slovensko_nova and offset 0.
+12:45:40.561 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK786GA with required changes 2.5196793.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2d2e5f00 with form slovensko_nova and offset 1.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KY865AC with required changes 0.0.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2d2e5f00 with form ceskoslovenska_novsia and offset 0.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKY8654 with required changes 1.2320906.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2d2e5f00 with form ceskoslovenska_novsia and offset 1.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KYG6540 with required changes 3.6115773.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2d2e5f00 with form ceska_nova and offset 0.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K78654 with required changes 3.907093.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2d2e5f00 with form ceska_nova and offset 1.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6T86540 with required changes 5.169631.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK786GA with required changes 2.5196793.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : KY865AC with required changes 0.0.
+12:45:40.562 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : RKY8654 with required changes 1.2320906.
+12:45:40.563 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : KYG6540 with required changes 3.6115773.
+12:45:40.563 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 2K78654 with required changes 3.907093.
+12:45:40.563 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 6T86540 with required changes 5.169631.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4de5031f with form slovensko_nova and offset 0.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK906AJ with required changes 0.0.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4de5031f with form ceskoslovenska_novsia and offset 0.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK00643 with required changes 3.6389356.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4de5031f with form ceska_nova and offset 0.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0K90643 with required changes 3.834578.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK906AJ with required changes 0.0.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK00643 with required changes 3.6389356.
+12:45:40.642 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0K90643 with required changes 3.834578.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2890c451 with form slovensko_nova and offset 0.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK855AP with required changes 0.0.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2890c451 with form ceskoslovenska_novsia and offset 0.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKB5540 with required changes 3.7525105.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2890c451 with form ceska_nova and offset 0.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K85540 with required changes 3.9531856.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK855AP with required changes 0.0.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKB5540 with required changes 3.7525105.
+12:45:40.707 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K85540 with required changes 3.9531856.
+12:45:40.761 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@12d3a4e9 with form slovensko_nova and offset 0.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK875AE with required changes 1.2442422.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@12d3a4e9 with form ceskoslovenska_novsia and offset 0.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK07545 with required changes 5.008489.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@12d3a4e9 with form ceska_nova and offset 0.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 9K87545 with required changes 5.136349.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK875AE with required changes 1.2442422.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK07545 with required changes 5.008489.
+12:45:40.762 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 9K87545 with required changes 5.136349.
+12:45:40.989 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@258e2e41 with form slovensko_nova and offset 0.
+12:45:40.989 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK612AL with required changes 1.1495491.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@258e2e41 with form ceskoslovenska_novsia and offset 0.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG1246 with required changes 2.6512265.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@258e2e41 with form ceska_nova and offset 0.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K61246 with required changes 5.1721034.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK612AL with required changes 1.1495491.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG1246 with required changes 2.6512265.
+12:45:40.990 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K61246 with required changes 5.1721034.
+12:45:41.047 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@b62fe6d with form slovensko_nova and offset 0.
+12:45:41.047 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK026AJ with required changes 1.1146505.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@b62fe6d with form ceskoslovenska_novsia and offset 0.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK02643 with required changes 3.6814122.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@b62fe6d with form ceska_nova and offset 0.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K02643 with required changes 5.0526066.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK026AJ with required changes 1.1146505.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK02643 with required changes 3.6814122.
+12:45:41.048 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K02643 with required changes 5.0526066.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a0dcaa with form slovensko_nova and offset 0.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK896A0 with required changes 0.0.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a0dcaa with form ceskoslovenska_novsia and offset 0.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG9640 with required changes 2.4399729.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a0dcaa with form ceska_nova and offset 0.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K89640 with required changes 2.541915.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK896A0 with required changes 0.0.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG9640 with required changes 2.4399729.
+12:45:41.109 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K89640 with required changes 2.541915.
+12:45:41.191 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@13c10b87 with form slovensko_nova and offset 0.
+12:45:41.191 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK492AU with required changes 0.0.
+12:45:41.191 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@13c10b87 with form ceskoslovenska_novsia and offset 0.
+12:45:41.191 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKA9240 with required changes 3.6187634.
+12:45:41.191 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@13c10b87 with form ceska_nova and offset 0.
+12:45:41.192 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K49240 with required changes 3.6764011.
+12:45:41.192 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK492AU with required changes 0.0.
+12:45:41.192 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKA9240 with required changes 3.6187634.
+12:45:41.192 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K49240 with required changes 3.6764011.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4fe767f3 with form slovensko_nova and offset 0.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK776AI with required changes 0.0.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4fe767f3 with form ceskoslovenska_novsia and offset 0.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKV7641 with required changes 3.912303.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4fe767f3 with form ceska_nova and offset 0.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K77641 with required changes 4.008772.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK776AI with required changes 0.0.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKV7641 with required changes 3.912303.
+12:45:41.285 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K77641 with required changes 4.008772.
+12:45:41.492 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6973bf95 with form slovensko_nova and offset 0.
+12:45:41.492 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LM010BE with required changes 0.0.
+12:45:41.492 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6973bf95 with form ceskoslovenska_novsia and offset 0.
+12:45:41.492 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LM01056 with required changes 2.5909438.
+12:45:41.492 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6973bf95 with form ceska_nova and offset 0.
+12:45:41.493 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5M01056 with required changes 3.9709659.
+12:45:41.493 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : LM010BE with required changes 0.0.
+12:45:41.493 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : LM01056 with required changes 2.5909438.
+12:45:41.493 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 5M01056 with required changes 3.9709659.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a04f701 with form slovensko_nova and offset 0.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK819AM with required changes 0.0.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a04f701 with form ceskoslovenska_novsia and offset 0.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG1940 with required changes 3.7576818.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a04f701 with form ceska_nova and offset 0.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K81940 with required changes 3.9379601.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK819AM with required changes 0.0.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG1940 with required changes 3.7576818.
+12:45:41.551 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K81940 with required changes 3.9379601.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@51e5fc98 with form slovensko_nova and offset 0.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK819AS with required changes 0.0.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@51e5fc98 with form ceskoslovenska_novsia and offset 0.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG1948 with required changes 3.6565657.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@51e5fc98 with form ceska_nova and offset 0.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K81948 with required changes 3.8145037.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK819AS with required changes 0.0.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG1948 with required changes 3.6565657.
+12:45:41.609 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K81948 with required changes 3.8145037.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@56528192 with form slovensko_nova and offset 0.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IR678SA with required changes 3.9043312.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@56528192 with form slovensko_nova and offset 1.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK783AS with required changes 1.1546528.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@56528192 with form ceskoslovenska_novsia and offset 0.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IRK7834 with required changes 2.3903074.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@56528192 with form ceskoslovenska_novsia and offset 1.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKT8348 with required changes 4.8696933.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@56528192 with form ceska_nova and offset 0.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 7P67834 with required changes 6.5625544.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@56528192 with form ceska_nova and offset 1.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6K78348 with required changes 5.0242786.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IR678SA with required changes 3.9043312.
+12:45:41.684 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK783AS with required changes 1.1546528.
+12:45:41.685 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IRK7834 with required changes 2.3903074.
+12:45:41.685 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : RKT8348 with required changes 4.8696933.
+12:45:41.685 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 7P67834 with required changes 6.5625544.
+12:45:41.685 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 6K78348 with required changes 5.0242786.
+12:45:41.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form slovensko_nova and offset 0.
+12:45:41.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ER408ZA with required changes 2.646887.
+12:45:41.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form slovensko_nova and offset 1.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK082AL with required changes 0.0.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form slovensko_nova and offset 2.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding K0824LJ with required changes 2.4900398.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form ceskoslovenska_novsia and offset 0.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ERK0824 with required changes 1.2800398.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form ceskoslovenska_novsia and offset 1.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK08245 with required changes 2.6406186.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form ceskoslovenska_novsia and offset 2.
+12:45:41.743 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding K0G2451 with required changes 3.825121.
+12:45:41.744 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form ceska_nova and offset 0.
+12:45:41.744 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5P40824 with required changes 5.31585.
+12:45:41.744 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form ceska_nova and offset 1.
+12:45:41.744 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K08245 with required changes 3.9354837.
+12:45:41.744 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4b14c583 with form ceska_nova and offset 2.
+12:45:41.745 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4U82451 with required changes 5.1649933.
+12:45:41.745 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : ER408ZA with required changes 2.646887.
+12:45:41.745 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK082AL with required changes 0.0.
+12:45:41.745 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : K0824LJ with required changes 2.4900398.
+12:45:41.747 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : ERK0824 with required changes 1.2800398.
+12:45:41.748 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : RK08245 with required changes 2.6406186.
+12:45:41.748 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : K0G2451 with required changes 3.825121.
+12:45:41.748 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 6 : 5P40824 with required changes 5.31585.
+12:45:41.748 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 7 : 8K08245 with required changes 3.9354837.
+12:45:41.749 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 8 : 4U82451 with required changes 5.1649933.
+12:45:41.823 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1c93084c with form slovensko_nova and offset 0.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding SG471ZJ with required changes 3.9189239.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1c93084c with form ceskoslovenska_novsia and offset 0.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding SGM7171 with required changes 5.1941915.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1c93084c with form ceska_nova and offset 0.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5C47171 with required changes 5.07472.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : SG471ZJ with required changes 3.9189239.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : SGM7171 with required changes 5.1941915.
+12:45:41.824 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 5C47171 with required changes 5.07472.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3c419631 with form slovensko_nova and offset 0.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BA738DE with required changes 0.0.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3c419631 with form slovensko_nova and offset 1.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AT380EJ with required changes 3.878098.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3c419631 with form ceskoslovenska_novsia and offset 0.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BAT3802 with required changes 3.898098.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3c419631 with form ceskoslovenska_novsia and offset 1.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ATJ8021 with required changes 5.202892.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3c419631 with form ceska_nova and offset 0.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8A73802 with required changes 3.7415986.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@3c419631 with form ceska_nova and offset 1.
+12:45:42.033 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4T38021 with required changes 5.1973486.
+12:45:42.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : BA738DE with required changes 0.0.
+12:45:42.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : AT380EJ with required changes 3.878098.
+12:45:42.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : BAT3802 with required changes 3.898098.
+12:45:42.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : ATJ8021 with required changes 5.202892.
+12:45:42.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 8A73802 with required changes 3.7415986.
+12:45:42.034 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 4T38021 with required changes 5.1973486.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6a400542 with form slovensko_nova and offset 0.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding HA708AI with required changes 1.39.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6a400542 with form ceskoslovenska_novsia and offset 0.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding HAV0848 with required changes 5.5599995.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6a400542 with form ceska_nova and offset 0.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8A70848 with required changes 5.5999994.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : HA708AI with required changes 1.39.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : HAV0848 with required changes 5.5599995.
+12:45:42.112 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8A70848 with required changes 5.5999994.
+12:45:42.342 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@50b472aa with form slovensko_nova and offset 0.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK260AR with required changes 1.2176998.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@50b472aa with form ceskoslovenska_novsia and offset 0.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKZ6048 with required changes 5.141021.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@50b472aa with form ceska_nova and offset 0.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K26048 with required changes 5.206339.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK260AR with required changes 1.2176998.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKZ6048 with required changes 5.141021.
+12:45:42.343 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K26048 with required changes 5.206339.
+12:45:42.413 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1cbbffcd with form slovensko_nova and offset 0.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK340A0 with required changes 0.0.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1cbbffcd with form ceskoslovenska_novsia and offset 0.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKS4040 with required changes 2.4608212.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1cbbffcd with form ceska_nova and offset 0.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K34040 with required changes 2.5560348.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK340A0 with required changes 0.0.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKS4040 with required changes 2.4608212.
+12:45:42.414 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K34040 with required changes 2.5560348.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7193666c with form slovensko_nova and offset 0.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK892AF with required changes 0.0.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7193666c with form slovensko_nova and offset 1.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KI924FJ with required changes 3.94.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7193666c with form ceskoslovenska_novsia and offset 0.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKI9246 with required changes 4.03.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7193666c with form ceskoslovenska_novsia and offset 1.
+12:45:42.477 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KI02461 with required changes 5.3700004.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7193666c with form ceska_nova and offset 0.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K89246 with required changes 4.1.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7193666c with form ceska_nova and offset 1.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6S92461 with required changes 5.57.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK892AF with required changes 0.0.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : KI924FJ with required changes 3.94.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : RKI9246 with required changes 4.03.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : KI02461 with required changes 5.3700004.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 8K89246 with required changes 4.1.
+12:45:42.478 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 6S92461 with required changes 5.57.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@dbf57b3 with form slovensko_nova and offset 0.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IX701I0 with required changes 1.3770661.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@dbf57b3 with form ceskoslovenska_novsia and offset 0.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IXT0140 with required changes 1.3743382.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@dbf57b3 with form ceska_nova and offset 0.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4K70140 with required changes 5.395313.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IX701I0 with required changes 1.3770661.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : IXT0140 with required changes 1.3743382.
+12:45:42.742 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 4K70140 with required changes 5.395313.
+12:45:42.796 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5e0826e7 with form slovensko_nova and offset 0.
+12:45:42.796 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding FL102GB with required changes 2.5782614.
+12:45:42.796 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5e0826e7 with form slovensko_nova and offset 1.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LM025BD with required changes 0.0.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5e0826e7 with form ceskoslovenska_novsia and offset 0.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding FLM0258 with required changes 1.234747.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5e0826e7 with form ceskoslovenska_novsia and offset 1.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LM02580 with required changes 2.396008.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5e0826e7 with form ceska_nova and offset 0.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5L10258 with required changes 3.9878082.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5e0826e7 with form ceska_nova and offset 1.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0M02580 with required changes 3.774897.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : FL102GB with required changes 2.5782614.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : LM025BD with required changes 0.0.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : FLM0258 with required changes 1.234747.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : LM02580 with required changes 2.396008.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 5L10258 with required changes 3.9878082.
+12:45:42.797 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 0M02580 with required changes 3.774897.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5ffead27 with form slovensko_nova and offset 0.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IB428SI with required changes 2.5942686.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5ffead27 with form slovensko_nova and offset 1.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BA288IM with required changes 0.0.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5ffead27 with form ceskoslovenska_novsia and offset 0.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IBA2888 with required changes 1.45.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5ffead27 with form ceskoslovenska_novsia and offset 1.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BAZ8881 with required changes 4.15876.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5ffead27 with form ceska_nova and offset 0.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8B42888 with required changes 4.1724415.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5ffead27 with form ceska_nova and offset 1.
+12:45:42.846 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8A28881 with required changes 4.0761037.
+12:45:42.847 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IB428SI with required changes 2.5942686.
+12:45:42.847 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : BA288IM with required changes 0.0.
+12:45:42.847 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IBA2888 with required changes 1.45.
+12:45:42.847 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : BAZ8881 with required changes 4.15876.
+12:45:42.847 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 8B42888 with required changes 4.1724415.
+12:45:42.847 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 8A28881 with required changes 4.0761037.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b239d7d with form slovensko_nova and offset 0.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ID664QA with required changes 4.08.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b239d7d with form slovensko_nova and offset 1.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding DK641AH with required changes 1.16.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b239d7d with form ceskoslovenska_novsia and offset 0.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IDK6414 with required changes 2.4899998.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b239d7d with form ceskoslovenska_novsia and offset 1.
+12:45:42.889 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding DKG4148 with required changes 2.6699998.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b239d7d with form ceska_nova and offset 0.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8U66414 with required changes 6.5699997.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b239d7d with form ceska_nova and offset 1.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0K64148 with required changes 4.91.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : ID664QA with required changes 4.08.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : DK641AH with required changes 1.16.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IDK6414 with required changes 2.4899998.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : DKG4148 with required changes 2.6699998.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 8U66414 with required changes 6.5699997.
+12:45:42.890 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 0K64148 with required changes 4.91.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@36bc55de with form slovensko_nova and offset 0.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK878AC with required changes 0.0.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@36bc55de with form ceskoslovenska_novsia and offset 0.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK07845 with required changes 3.833846.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@36bc55de with form ceska_nova and offset 0.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6K87845 with required changes 3.96.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK878AC with required changes 0.0.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK07845 with required changes 3.833846.
+12:45:42.932 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 6K87845 with required changes 3.96.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@223191a6 with form slovensko_nova and offset 0.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK878AC with required changes 0.0.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@223191a6 with form ceskoslovenska_novsia and offset 0.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK07840 with required changes 3.881962.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@223191a6 with form ceska_nova and offset 0.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K87840 with required changes 3.9218147.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK878AC with required changes 0.0.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK07840 with required changes 3.881962.
+12:45:43.512 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K87840 with required changes 3.9218147.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7d8995e with form slovensko_nova and offset 0.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK143AT with required changes 1.3186398.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7d8995e with form ceskoslovenska_novsia and offset 0.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKI4347 with required changes 2.5017498.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7d8995e with form ceska_nova and offset 0.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 9K14347 with required changes 5.1479516.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK143AT with required changes 1.3186398.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKI4347 with required changes 2.5017498.
+12:45:43.569 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 9K14347 with required changes 5.1479516.
+12:45:43.612 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@313ac989 with form slovensko_nova and offset 0.
+12:45:43.612 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK181AG with required changes 0.0.
+12:45:43.612 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@313ac989 with form ceskoslovenska_novsia and offset 0.
+12:45:43.612 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKJ8140 with required changes 3.9642174.
+12:45:43.612 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@313ac989 with form ceska_nova and offset 0.
+12:45:43.612 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K18140 with required changes 3.8851857.
+12:45:43.613 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK181AG with required changes 0.0.
+12:45:43.613 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKJ8140 with required changes 3.9642174.
+12:45:43.613 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K18140 with required changes 3.8851857.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1aafa419 with form slovensko_nova and offset 0.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK416MA with required changes 2.7120337.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1aafa419 with form slovensko_nova and offset 1.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KI161AG with required changes 0.0.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1aafa419 with form ceskoslovenska_novsia and offset 0.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKI1614 with required changes 1.306024.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1aafa419 with form ceskoslovenska_novsia and offset 1.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KII6148 with required changes 3.9397411.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1aafa419 with form ceska_nova and offset 0.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K41614 with required changes 3.9838712.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1aafa419 with form ceska_nova and offset 1.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4A16148 with required changes 5.2841315.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK416MA with required changes 2.7120337.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : KI161AG with required changes 0.0.
+12:45:43.663 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : RKI1614 with required changes 1.306024.
+12:45:43.664 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : KII6148 with required changes 3.9397411.
+12:45:43.664 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 8K41614 with required changes 3.9838712.
+12:45:43.664 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 4A16148 with required changes 5.2841315.
+12:45:43.724 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1bb5a082 with form slovensko_nova and offset 0.
+12:45:43.724 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KM606AK with required changes 2.5633714.
+12:45:43.724 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1bb5a082 with form slovensko_nova and offset 1.
+12:45:43.724 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MB064KJ with required changes 3.9014845.
+12:45:43.724 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1bb5a082 with form ceskoslovenska_novsia and offset 0.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding KMB0646 with required changes 4.122201.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1bb5a082 with form ceskoslovenska_novsia and offset 1.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MB06463 with required changes 4.122201.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1bb5a082 with form ceska_nova and offset 0.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4M60646 with required changes 6.761915.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1bb5a082 with form ceska_nova and offset 1.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0B06463 with required changes 5.4920683.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : KM606AK with required changes 2.5633714.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : MB064KJ with required changes 3.9014845.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : KMB0646 with required changes 4.122201.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : MB06463 with required changes 4.122201.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 4M60646 with required changes 6.761915.
+12:45:43.725 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 0B06463 with required changes 5.4920683.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@206a70ef with form slovensko_nova and offset 0.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK605AI with required changes 1.1486803.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@206a70ef with form ceskoslovenska_novsia and offset 0.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG0548 with required changes 4.979673.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@206a70ef with form ceska_nova and offset 0.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K60548 with required changes 5.203043.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK605AI with required changes 1.1486803.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG0548 with required changes 4.979673.
+12:45:43.979 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K60548 with required changes 5.203043.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@dd05255 with form slovensko_nova and offset 0.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0Y849AL with required changes 2.73.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@dd05255 with form ceskoslovenska_novsia and offset 0.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0YG4944 with required changes 3.9599998.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@dd05255 with form ceska_nova and offset 0.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8Z84944 with required changes 2.75.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : 0Y849AL with required changes 2.73.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : 0YG4944 with required changes 3.9599998.
+12:45:44.017 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8Z84944 with required changes 2.75.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1fa121e2 with form slovensko_nova and offset 0.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IR471SA with required changes 2.798674.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1fa121e2 with form slovensko_nova and offset 1.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK718AA with required changes 0.0.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1fa121e2 with form ceskoslovenska_novsia and offset 0.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IRK7184 with required changes 1.3821778.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1fa121e2 with form ceskoslovenska_novsia and offset 1.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKZ1844 with required changes 3.9778666.
+12:45:44.079 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1fa121e2 with form ceska_nova and offset 0.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5S47184 with required changes 5.7733665.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1fa121e2 with form ceska_nova and offset 1.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K71844 with required changes 4.1384673.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IR471SA with required changes 2.798674.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK718AA with required changes 0.0.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IRK7184 with required changes 1.3821778.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : RKZ1844 with required changes 3.9778666.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 5S47184 with required changes 5.7733665.
+12:45:44.080 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 2K71844 with required changes 4.1384673.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5dda768f with form slovensko_nova and offset 0.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding HK282AL with required changes 0.0.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5dda768f with form ceskoslovenska_novsia and offset 0.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding HKZ8246 with required changes 4.06.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5dda768f with form ceska_nova and offset 0.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K28246 with required changes 4.16.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : HK282AL with required changes 0.0.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : HKZ8246 with required changes 4.06.
+12:45:44.110 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K28246 with required changes 4.16.
+12:45:44.141 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@61322f9d with form slovensko_nova and offset 0.
+12:45:44.141 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding N0450AM with required changes 0.0.
+12:45:44.141 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@61322f9d with form ceskoslovenska_novsia and offset 0.
+12:45:44.142 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding N0A5046 with required changes 3.9857779.
+12:45:44.142 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@61322f9d with form ceska_nova and offset 0.
+12:45:44.142 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0U45046 with required changes 5.2321773.
+12:45:44.142 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : N0450AM with required changes 0.0.
+12:45:44.142 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : N0A5046 with required changes 3.9857779.
+12:45:44.142 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0U45046 with required changes 5.2321773.
+12:45:44.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1e66f1f5 with form slovensko_nova and offset 0.
+12:45:44.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK300AS with required changes 1.0868248.
+12:45:44.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1e66f1f5 with form ceskoslovenska_novsia and offset 0.
+12:45:44.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKB0043 with required changes 4.9424267.
+12:45:44.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1e66f1f5 with form ceska_nova and offset 0.
+12:45:44.779 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 7K30043 with required changes 5.0253835.
+12:45:44.782 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK300AS with required changes 1.0868248.
+12:45:44.782 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKB0043 with required changes 4.9424267.
+12:45:44.782 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 7K30043 with required changes 5.0253835.
+12:45:44.953 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@8c3b9d with form slovensko_nova and offset 0.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK485AF with required changes 1.2550395.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@8c3b9d with form ceskoslovenska_novsia and offset 0.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKA8546 with required changes 5.2726035.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@8c3b9d with form ceska_nova and offset 0.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0K48546 with required changes 5.333389.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK485AF with required changes 1.2550395.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKA8546 with required changes 5.2726035.
+12:45:44.954 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0K48546 with required changes 5.333389.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@c86b9e3 with form slovensko_nova and offset 0.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IB430Z0 with required changes 2.5838442.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@c86b9e3 with form slovensko_nova and offset 1.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BA3020Z with required changes 0.0.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@c86b9e3 with form ceskoslovenska_novsia and offset 0.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IBA3020 with required changes 0.0.
+12:45:44.994 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@c86b9e3 with form ceskoslovenska_novsia and offset 1.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BAQ0202 with required changes 2.5658045.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@c86b9e3 with form ceska_nova and offset 0.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5B43020 with required changes 2.7150922.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@c86b9e3 with form ceska_nova and offset 1.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6A30202 with required changes 2.6208444.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IB430Z0 with required changes 2.5838442.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : BA3020Z with required changes 0.0.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IBA3020 with required changes 0.0.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : BAQ0202 with required changes 2.5658045.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 5B43020 with required changes 2.7150922.
+12:45:44.995 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 6A30202 with required changes 2.6208444.
+12:45:45.043 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@10d68fcd with form slovensko_nova and offset 0.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IA3020Z with required changes 0.0.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@10d68fcd with form slovensko_nova and offset 1.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AV020ZJ with required changes 2.638817.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@10d68fcd with form ceskoslovenska_novsia and offset 0.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IAV0202 with required changes 2.723817.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@10d68fcd with form ceskoslovenska_novsia and offset 1.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AV02021 with required changes 2.723817.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@10d68fcd with form ceska_nova and offset 0.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4A30202 with required changes 2.7200992.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@10d68fcd with form ceska_nova and offset 1.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4J02021 with required changes 4.0563765.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IA3020Z with required changes 0.0.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : AV020ZJ with required changes 2.638817.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IAV0202 with required changes 2.723817.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : AV02021 with required changes 2.723817.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 4A30202 with required changes 2.7200992.
+12:45:45.044 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 4J02021 with required changes 4.0563765.
+12:45:45.083 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2898ac89 with form slovensko_nova and offset 0.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MT458IJ with required changes 1.28.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2898ac89 with form ceskoslovenska_novsia and offset 0.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MTX5883 with required changes 2.6533918.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2898ac89 with form ceska_nova and offset 0.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8T45883 with required changes 2.7062254.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : MT458IJ with required changes 1.28.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : MTX5883 with required changes 2.6533918.
+12:45:45.084 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8T45883 with required changes 2.7062254.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7c1e2a9e with form slovensko_nova and offset 0.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QD883SS with required changes 5.21.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7c1e2a9e with form ceskoslovenska_novsia and offset 0.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QD08338 with required changes 3.97.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7c1e2a9e with form ceska_nova and offset 0.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1B88338 with required changes 1.27.
+12:45:45.116 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : QD883SS with required changes 5.21.
+12:45:45.117 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : QD08338 with required changes 3.97.
+12:45:45.117 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1B88338 with required changes 1.27.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2a266d09 with form slovensko_nova and offset 0.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MD2870Q with required changes 5.0943623.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2a266d09 with form ceskoslovenska_novsia and offset 0.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MDZ8790 with required changes 6.2511477.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@2a266d09 with form ceska_nova and offset 0.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1B28790 with required changes 3.6675184.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : MD2870Q with required changes 5.0943623.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : MDZ8790 with required changes 6.2511477.
+12:45:45.184 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1B28790 with required changes 3.6675184.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@236e3f4e with form slovensko_nova and offset 0.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BZ122ZZ with required changes 3.8243926.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@236e3f4e with form ceskoslovenska_novsia and offset 0.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BZM2227 with required changes 2.506172.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@236e3f4e with form ceska_nova and offset 0.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8Z12227 with required changes 5.143947.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : BZ122ZZ with required changes 3.8243926.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : BZM2227 with required changes 2.506172.
+12:45:45.242 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8Z12227 with required changes 5.143947.
+12:45:45.291 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1329eff with form slovensko_nova and offset 0.
+12:45:45.291 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AI848ZQ with required changes 5.2239103.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1329eff with form ceskoslovenska_novsia and offset 0.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AIQ4879 with required changes 3.8989334.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1329eff with form ceska_nova and offset 0.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4B84879 with required changes 3.9258258.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : AI848ZQ with required changes 5.2239103.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : AIQ4879 with required changes 3.8989334.
+12:45:45.292 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 4B84879 with required changes 3.9258258.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@f381794 with form slovensko_nova and offset 0.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BS655ZI with required changes 5.1166162.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@f381794 with form ceskoslovenska_novsia and offset 0.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding BSE5578 with required changes 1.2578045.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@f381794 with form ceska_nova and offset 0.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8S65578 with required changes 1.2830142.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : BS655ZI with required changes 5.1166162.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : BSE5578 with required changes 1.2578045.
+12:45:45.331 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8S65578 with required changes 1.2830142.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@355ce81c with form slovensko_nova and offset 0.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MD704A0 with required changes 2.715294.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@355ce81c with form ceskoslovenska_novsia and offset 0.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding MDZ0440 with required changes 2.6240177.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@355ce81c with form ceska_nova and offset 0.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1B70440 with required changes 1.2543757.
+12:45:45.481 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : MD704A0 with required changes 2.715294.
+12:45:45.482 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : MDZ0440 with required changes 2.6240177.
+12:45:45.482 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1B70440 with required changes 1.2543757.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7690781 with form slovensko_nova and offset 0.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QB198S0 with required changes 3.9630742.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7690781 with form ceskoslovenska_novsia and offset 0.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QBQ9839 with required changes 2.8000002.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@7690781 with form ceska_nova and offset 0.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1B19839 with required changes 0.0.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : QB198S0 with required changes 3.9630742.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : QBQ9839 with required changes 2.8000002.
+12:45:45.552 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1B19839 with required changes 0.0.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@55536d9e with form slovensko_nova and offset 0.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AB482IZ with required changes 5.268625.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@55536d9e with form ceskoslovenska_novsia and offset 0.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ABA8282 with required changes 3.9218872.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@55536d9e with form ceska_nova and offset 0.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4B48282 with required changes 1.3322921.
+12:45:45.589 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : AB482IZ with required changes 5.268625.
+12:45:45.590 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : ABA8282 with required changes 3.9218872.
+12:45:45.590 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 4B48282 with required changes 1.3322921.
+12:45:45.631 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4e7912d8 with form slovensko_nova and offset 0.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ZT482QM with required changes 5.4584627.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4e7912d8 with form ceskoslovenska_novsia and offset 0.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ZTA8211 with required changes 4.0184627.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4e7912d8 with form ceska_nova and offset 0.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2T48211 with required changes 1.3552326.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : ZT482QM with required changes 5.4584627.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : ZTA8211 with required changes 4.0184627.
+12:45:45.632 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2T48211 with required changes 1.3552326.
+12:45:45.667 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1e6454ec with form slovensko_nova and offset 0.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding NZ75200 with required changes 5.371964.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1e6454ec with form ceskoslovenska_novsia and offset 0.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding NZZ5233 with required changes 1.4.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1e6454ec with form ceska_nova and offset 0.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1Z75233 with required changes 1.36.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : NZ75200 with required changes 5.371964.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : NZZ5233 with required changes 1.4.
+12:45:45.668 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1Z75233 with required changes 1.36.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form slovensko_nova and offset 0.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AB393ZG with required changes 3.828688.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form slovensko_nova and offset 1.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding B0937GI with required changes 2.60609.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form slovensko_nova and offset 2.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 00378II with required changes 2.5430143.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form slovensko_nova and offset 3.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0Q781II with required changes 3.9800787.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceskoslovenska_novsia and offset 0.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AB09378 with required changes 2.5853033.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceskoslovenska_novsia and offset 1.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding B003781 with required changes 3.9330144.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceskoslovenska_novsia and offset 2.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 00Q7817 with required changes 6.6867237.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceskoslovenska_novsia and offset 3.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0QZ8178 with required changes 8.077032.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceska_nova and offset 0.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4B39378 with required changes 0.0.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceska_nova and offset 1.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8J93781 with required changes 3.9630141.
+12:45:45.710 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceska_nova and offset 2.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 3S37817 with required changes 4.093631.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550ee7e5 with form ceska_nova and offset 3.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 9S78178 with required changes 5.6336308.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : AB393ZG with required changes 3.828688.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : B0937GI with required changes 2.60609.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 00378II with required changes 2.5430143.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : 0Q781II with required changes 3.9800787.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : AB09378 with required changes 2.5853033.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : B003781 with required changes 3.9330144.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 6 : 00Q7817 with required changes 6.6867237.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 7 : 0QZ8178 with required changes 8.077032.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 8 : 4B39378 with required changes 0.0.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 9 : 8J93781 with required changes 3.9630141.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 10 : 3S37817 with required changes 4.093631.
+12:45:45.711 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 11 : 9S78178 with required changes 5.6336308.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@932bc4a with form slovensko_nova and offset 0.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0B972QG with required changes 3.8277106.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@932bc4a with form ceskoslovenska_novsia and offset 0.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0BQ7238 with required changes 2.6122878.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@932bc4a with form ceska_nova and offset 0.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 3B97238 with required changes 0.0.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : 0B972QG with required changes 3.8277106.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : 0BQ7238 with required changes 2.6122878.
+12:45:45.758 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 3B97238 with required changes 0.0.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@24fcf36f with form slovensko_nova and offset 0.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QD294IG with required changes 4.9945474.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@24fcf36f with form ceskoslovenska_novsia and offset 0.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding QDZ9485 with required changes 3.7753234.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@24fcf36f with form ceska_nova and offset 0.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 1B29485 with required changes 1.2648135.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : QD294IG with required changes 4.9945474.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : QDZ9485 with required changes 3.7753234.
+12:45:45.802 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 1B29485 with required changes 1.2648135.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@63a12c68 with form slovensko_nova and offset 0.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ZA834CF with required changes 1.3199999.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@63a12c68 with form ceskoslovenska_novsia and offset 0.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding ZAQ3406 with required changes 5.266115.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@63a12c68 with form ceska_nova and offset 0.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 7A83406 with required changes 5.252365.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : ZA834CF with required changes 1.3199999.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : ZAQ3406 with required changes 5.266115.
+12:45:45.856 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 7A83406 with required changes 5.252365.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@25084a1e with form slovensko_nova and offset 0.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding AP218ZG with required changes 3.9048405.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@25084a1e with form ceskoslovenska_novsia and offset 0.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding APZ1825 with required changes 2.6533275.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@25084a1e with form ceska_nova and offset 0.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 4P21825 with required changes 2.5845408.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : AP218ZG with required changes 3.9048405.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : APZ1825 with required changes 2.6533275.
+12:45:45.904 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 4P21825 with required changes 2.5845408.
+12:45:45.957 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6da21078 with form slovensko_nova and offset 0.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK735AS with required changes 0.0.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6da21078 with form ceskoslovenska_novsia and offset 0.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKT3549 with required changes 3.735478.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6da21078 with form ceska_nova and offset 0.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6K73549 with required changes 3.8399897.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK735AS with required changes 0.0.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKT3549 with required changes 3.735478.
+12:45:45.958 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 6K73549 with required changes 3.8399897.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@611889f4 with form slovensko_nova and offset 0.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK457AS with required changes 0.0.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@611889f4 with form ceskoslovenska_novsia and offset 0.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKA5745 with required changes 3.671724.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@611889f4 with form ceska_nova and offset 0.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K45745 with required changes 3.7459424.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK457AS with required changes 0.0.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKA5745 with required changes 3.671724.
+12:45:46.015 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K45745 with required changes 3.7459424.
+12:45:46.076 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@543588e6 with form slovensko_nova and offset 0.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK959AF with required changes 0.0.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@543588e6 with form ceskoslovenska_novsia and offset 0.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK05946 with required changes 3.8716006.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@543588e6 with form ceska_nova and offset 0.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K95946 with required changes 4.0074577.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK959AF with required changes 0.0.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK05946 with required changes 3.8716006.
+12:45:46.077 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K95946 with required changes 4.0074577.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@bae7dc0 with form slovensko_nova and offset 0.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK003AB with required changes 0.0.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@bae7dc0 with form ceskoslovenska_novsia and offset 0.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK00346 with required changes 2.4890919.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@bae7dc0 with form ceska_nova and offset 0.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K00346 with required changes 3.8088052.
+12:45:46.135 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK003AB with required changes 0.0.
+12:45:46.136 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK00346 with required changes 2.4890919.
+12:45:46.136 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K00346 with required changes 3.8088052.
+12:45:46.196 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6e0f5f7f with form slovensko_nova and offset 0.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IR664IA with required changes 2.9300077.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6e0f5f7f with form slovensko_nova and offset 1.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK641AL with required changes 0.0.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6e0f5f7f with form ceskoslovenska_novsia and offset 0.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding IRK6414 with required changes 1.2662015.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6e0f5f7f with form ceskoslovenska_novsia and offset 1.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG4146 with required changes 3.8168745.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6e0f5f7f with form ceska_nova and offset 0.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 5P66414 with required changes 5.4255786.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6e0f5f7f with form ceska_nova and offset 1.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 9K64146 with required changes 4.0629478.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : IR664IA with required changes 2.9300077.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK641AL with required changes 0.0.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : IRK6414 with required changes 1.2662015.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : RKG4146 with required changes 3.8168745.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : 5P66414 with required changes 5.4255786.
+12:45:46.197 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : 9K64146 with required changes 4.0629478.
+12:45:46.244 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550dbc7a with form germany and offset 0.
+12:45:46.244 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK0940 with required changes 3.688199.
+12:45:46.244 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@550dbc7a with form ceskoslovenska_starsia and offset 0.
+12:45:46.244 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK8940 with required changes 2.4894173.
+12:45:46.244 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK0940 with required changes 3.688199.
+12:45:46.244 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK8940 with required changes 2.4894173.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form slovensko_nova and offset 0.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding FP072ZB with required changes 2.4475155.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form slovensko_nova and offset 1.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding PD722BF with required changes 0.0.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form slovensko_nova and offset 2.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding DY228FJ with required changes 3.885491.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form ceskoslovenska_novsia and offset 0.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding FPD7228 with required changes 1.2834142.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form ceskoslovenska_novsia and offset 1.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding PDY2286 with required changes 3.922691.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form ceskoslovenska_novsia and offset 2.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding DYZ2861 with required changes 5.1755266.
+12:45:58.199 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form ceska_nova and offset 0.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 6P07228 with required changes 3.8438258.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form ceska_nova and offset 1.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8U72286 with required changes 5.2283936.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@771a660 with form ceska_nova and offset 2.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0T22861 with required changes 5.0613375.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : FP072ZB with required changes 2.4475155.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : PD722BF with required changes 0.0.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : DY228FJ with required changes 3.885491.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 3 : FPD7228 with required changes 1.2834142.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 4 : PDY2286 with required changes 3.922691.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 5 : DYZ2861 with required changes 5.1755266.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 6 : 6P07228 with required changes 3.8438258.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 7 : 8U72286 with required changes 5.2283936.
+12:45:58.200 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 8 : 0T22861 with required changes 5.0613375.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@a38c7fe with form slovensko_nova and offset 0.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK959AD with required changes 0.0.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@a38c7fe with form ceskoslovenska_novsia and offset 0.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK05940 with required changes 3.6269999.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@a38c7fe with form ceska_nova and offset 0.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K95940 with required changes 3.7295775.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK959AD with required changes 0.0.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK05940 with required changes 3.6269999.
+12:45:58.289 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K95940 with required changes 3.7295775.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4686afc2 with form slovensko_nova and offset 0.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK376AF with required changes 0.0.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4686afc2 with form ceskoslovenska_novsia and offset 0.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKS7645 with required changes 3.7357175.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@4686afc2 with form ceska_nova and offset 0.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0K37645 with required changes 3.833357.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK376AF with required changes 0.0.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKS7645 with required changes 3.7357175.
+12:45:58.339 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0K37645 with required changes 3.833357.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a942c18 with form slovensko_nova and offset 0.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK011AM with required changes 0.0.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a942c18 with form ceskoslovenska_novsia and offset 0.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK01140 with required changes 2.6930392.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@1a942c18 with form ceska_nova and offset 0.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 2K01140 with required changes 4.0091205.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK011AM with required changes 0.0.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK01140 with required changes 2.6930392.
+12:45:58.391 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 2K01140 with required changes 4.0091205.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@f78a47e with form slovensko_nova and offset 0.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LM169AM with required changes 1.169828.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@f78a47e with form ceskoslovenska_novsia and offset 0.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding LMQ6940 with required changes 5.190996.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@f78a47e with form ceska_nova and offset 0.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0M16940 with required changes 5.0943995.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : LM169AM with required changes 1.169828.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : LMQ6940 with required changes 5.190996.
+12:45:58.450 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0M16940 with required changes 5.0943995.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b1669c0 with form slovensko_nova and offset 0.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK565AV with required changes 0.0.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b1669c0 with form ceskoslovenska_novsia and offset 0.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG6547 with required changes 3.65773.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@5b1669c0 with form ceska_nova and offset 0.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 0K56547 with required changes 3.7942677.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK565AV with required changes 0.0.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG6547 with required changes 3.65773.
+12:45:58.524 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 0K56547 with required changes 3.7942677.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@53045c6c with form slovensko_nova and offset 0.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK977AF with required changes 0.0.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@53045c6c with form ceskoslovenska_novsia and offset 0.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK07745 with required changes 3.69818.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@53045c6c with form ceska_nova and offset 0.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K97745 with required changes 3.9087965.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK977AF with required changes 0.0.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK07745 with required changes 3.69818.
+12:46:02.767 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K97745 with required changes 3.9087965.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@79e4c792 with form slovensko_nova and offset 0.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK373AK with required changes 0.0.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@79e4c792 with form ceskoslovenska_novsia and offset 0.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK07346 with required changes 3.8996668.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@79e4c792 with form ceska_nova and offset 0.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K37346 with required changes 4.041884.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK373AK with required changes 0.0.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RK07346 with required changes 3.8996668.
+12:46:02.835 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K37346 with required changes 4.041884.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@909217e with form slovensko_nova and offset 0.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK301AH with required changes 0.0.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@909217e with form ceskoslovenska_novsia and offset 0.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKS0148 with required changes 3.8960931.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@909217e with form ceska_nova and offset 0.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K30148 with required changes 4.0111513.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK301AH with required changes 0.0.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKS0148 with required changes 3.8960931.
+12:46:02.895 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K30148 with required changes 4.0111513.
+12:46:03.288 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6c284af with form germany and offset 0.
+12:46:03.288 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding N0G264 with required changes 2.4363954.
+12:46:03.288 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@6c284af with form ceskoslovenska_starsia and offset 0.
+12:46:03.288 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding N06264 with required changes 1.2683381.
+12:46:03.288 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : N0G264 with required changes 2.4363954.
+12:46:03.288 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : N06264 with required changes 1.2683381.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@496bc455 with form slovensko_nova and offset 0.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK735AS with required changes 0.0.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@496bc455 with form ceskoslovenska_novsia and offset 0.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKV3548 with required changes 3.7464986.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@496bc455 with form ceska_nova and offset 0.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K73548 with required changes 3.8082192.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK735AS with required changes 0.0.
+12:46:03.365 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKV3548 with required changes 3.7464986.
+12:46:03.366 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K73548 with required changes 3.8082192.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@792b749c with form slovensko_nova and offset 0.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RK603AV with required changes 1.130477.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@792b749c with form ceskoslovenska_novsia and offset 0.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding RKG0347 with required changes 2.594714.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Comparing net.sf.javaanpr.intelligence.RecognizedPlate@792b749c with form ceska_nova and offset 0.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Adding 8K60347 with required changes 5.1102314.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 0 : RK603AV with required changes 1.130477.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 1 : RKG0347 with required changes 2.594714.
+12:46:03.422 [main] DEBUG n.s.j.intelligence.parser.Parser - Plate 2 : 8K60347 with required changes 5.1102314.
+]]></system-out>
+    <system-err><![CDATA[mar. 22, 2018 12:45:38 PM net.sf.javaanpr.test.RecognitionAllIt setUp
+SEVERE: ################## This is my size97
+mar. 22, 2018 12:45:38 PM net.sf.javaanpr.test.RecognitionAllIt data
+SEVERE: ###################  Min snapshots er: [src\test\resources\snapshots\test_001.jpg, src\test\resources\snapshots\test_002.jpg, src\test\resources\snapshots\test_003.jpg, src\test\resources\snapshots\test_004.jpg, src\test\resources\snapshots\test_005.jpg, src\test\resources\snapshots\test_006.jpg, src\test\resources\snapshots\test_007.jpg, src\test\resources\snapshots\test_008.jpg, src\test\resources\snapshots\test_009.jpg, src\test\resources\snapshots\test_010.jpg, src\test\resources\snapshots\test_011.jpg, src\test\resources\snapshots\test_012.jpg, src\test\resources\snapshots\test_013.jpg, src\test\resources\snapshots\test_014.jpg, src\test\resources\snapshots\test_015.jpg, src\test\resources\snapshots\test_016.jpg, src\test\resources\snapshots\test_017.jpg, src\test\resources\snapshots\test_018.jpg, src\test\resources\snapshots\test_019.jpg, src\test\resources\snapshots\test_020.jpg, src\test\resources\snapshots\test_021.jpg, src\test\resources\snapshots\test_022.jpg, src\test\resources\snapshots\test_023.jpg, src\test\resources\snapshots\test_024.jpg, src\test\resources\snapshots\test_025.jpg, src\test\resources\snapshots\test_026.jpg, src\test\resources\snapshots\test_027.jpg, src\test\resources\snapshots\test_028.jpg, src\test\resources\snapshots\test_029.jpg, src\test\resources\snapshots\test_030.jpg, src\test\resources\snapshots\test_031.jpg, src\test\resources\snapshots\test_032.jpg, src\test\resources\snapshots\test_033.jpg, src\test\resources\snapshots\test_034.jpg, src\test\resources\snapshots\test_035.jpg, src\test\resources\snapshots\test_036.jpg, src\test\resources\snapshots\test_037.jpg, src\test\resources\snapshots\test_038.jpg, src\test\resources\snapshots\test_039.jpg, src\test\resources\snapshots\test_040.jpg, src\test\resources\snapshots\test_041.jpg, src\test\resources\snapshots\test_042.jpg, src\test\resources\snapshots\test_043.jpg, src\test\resources\snapshots\test_044.jpg, src\test\resources\snapshots\test_045.jpg, src\test\resources\snapshots\test_046.jpg, src\test\resources\snapshots\test_047.jpg, src\test\resources\snapshots\test_048.jpg, src\test\resources\snapshots\test_049.jpg, src\test\resources\snapshots\test_050.jpg, src\test\resources\snapshots\test_051.jpg, src\test\resources\snapshots\test_052.jpg, src\test\resources\snapshots\test_053.jpg, src\test\resources\snapshots\test_054.jpg, src\test\resources\snapshots\test_055.jpg, src\test\resources\snapshots\test_056.jpg, src\test\resources\snapshots\test_057.jpg, src\test\resources\snapshots\test_058.jpg, src\test\resources\snapshots\test_059.jpg, src\test\resources\snapshots\test_060.jpg, src\test\resources\snapshots\test_061.jpg, src\test\resources\snapshots\test_062.jpg, src\test\resources\snapshots\test_063.jpg, src\test\resources\snapshots\test_064.jpg, src\test\resources\snapshots\test_065.jpg, src\test\resources\snapshots\test_066.jpg, src\test\resources\snapshots\test_067.jpg, src\test\resources\snapshots\test_068.jpg, src\test\resources\snapshots\test_069.jpg, src\test\resources\snapshots\test_070.jpg, src\test\resources\snapshots\test_071.jpg, src\test\resources\snapshots\test_072.jpg, src\test\resources\snapshots\test_073.jpg, src\test\resources\snapshots\test_074.jpg, src\test\resources\snapshots\test_075.jpg, src\test\resources\snapshots\test_076.jpg, src\test\resources\snapshots\test_077.jpg, src\test\resources\snapshots\test_078.jpg, src\test\resources\snapshots\test_079.jpg, src\test\resources\snapshots\test_080.jpg, src\test\resources\snapshots\test_081.jpg, src\test\resources\snapshots\test_082.jpg, src\test\resources\snapshots\test_083.jpg, src\test\resources\snapshots\test_084.jpg, src\test\resources\snapshots\test_085.jpg, src\test\resources\snapshots\test_086.jpg, src\test\resources\snapshots\test_087.jpg, src\test\resources\snapshots\test_088.jpg, src\test\resources\snapshots\test_089.jpg, src\test\resources\snapshots\test_090.jpg, src\test\resources\snapshots\test_091.jpg, src\test\resources\snapshots\test_092.jpg, src\test\resources\snapshots\test_093.jpg, src\test\resources\snapshots\test_094.jpg, src\test\resources\snapshots\test_095.jpg, src\test\resources\snapshots\test_096.jpg, src\test\resources\snapshots\test_097.jpg]
+]]></system-err>
+  </testcase>
+  <testcase name="test_addTwoNumbes[1]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[2]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[3]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[4]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[5]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[6]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[7]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[8]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[9]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[10]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[11]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;IRK2914&quot;&#10;     but: was &quot;RK291AT&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "IRK2914"
+     but: was "RK291AT"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[12]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[13]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[14]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[15]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[16]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;RK867AD&quot;&#10;     but: was &quot;RK876AD&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK867AD"
+     but: was "RK876AD"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[17]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[18]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;KY865AC&quot;&#10;     but: was &quot;RK865AC&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "KY865AC"
+     but: was "RK865AC"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[19]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[20]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[21]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[22]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[23]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[24]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;RK896A0&quot;&#10;     but: was &quot;RK896AO&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK896A0"
+     but: was "RK896AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[25]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[26]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[27]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;null&quot;&#10;     but: was &quot;LM633BD&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "null"
+     but: was "LM633BD"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[28]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[29]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[30]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;RK819AS&quot;&#10;     but: was &quot;RK619AS&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK819AS"
+     but: was "RK619AS"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[31]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;RK783AS&quot;&#10;     but: was &quot;RK763AS&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK783AS"
+     but: was "RK763AS"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[32]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[33]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;S64Z1Z1&quot;&#10;     but: was &quot;SG47471&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "S64Z1Z1"
+     but: was "SG47471"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[34]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[35]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;HA708AI&quot;&#10;     but: was &quot;RK708AI&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "HA708AI"
+     but: was "RK708AI"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[36]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[37]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[38]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;RK892AF&quot;&#10;     but: was &quot;RK892AE&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK892AF"
+     but: was "RK892AE"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[39]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;IXT0140&quot;&#10;     but: was &quot;RK101AO&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "IXT0140"
+     but: was "RK101AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[40]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[41]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;BA288IM&quot;&#10;     but: was &quot;BA28IM&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "BA288IM"
+     but: was "BA28IM"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[42]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;DK641AH&quot;&#10;     but: was &quot;DK41AH&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "DK641AH"
+     but: was "DK41AH"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[43]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[44]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[45]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[46]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;RK181AG&quot;&#10;     but: was &quot;RK161AG&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK181AG"
+     but: was "RK161AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[47]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;KI161AG&quot;&#10;     but: was &quot;RK161AG&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "KI161AG"
+     but: was "RK161AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[48]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;KMB0RAK3&quot;&#10;     but: was &quot;KMBORAK&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "KMB0RAK3"
+     but: was "KMBORAK"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[49]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;null&quot;&#10;     but: was &quot;BB135BO&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "null"
+     but: was "BB135BO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[50]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;RK605AI&quot;&#10;     but: was &quot;RK605AB&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK605AI"
+     but: was "RK605AB"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[51]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;8Y849A4&quot;&#10;     but: was &quot;BY649AG&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "8Y849A4"
+     but: was "BY649AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[52]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;RK718AA&quot;&#10;     but: was &quot;RK715AA&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK718AA"
+     but: was "RK715AA"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[53]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;HK282AL&quot;&#10;     but: was &quot;RK22AH&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "HK282AL"
+     but: was "RK22AH"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[54]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;N0450AM&quot;&#10;     but: was &quot;NO450AM&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "N0450AM"
+     but: was "NO450AM"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[55]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;null&quot;&#10;     but: was &quot;RK300AG&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "null"
+     but: was "RK300AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[56]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[57]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[58]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;IBA3020&quot;&#10;     but: was &quot;BA302OZ&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "IBA3020"
+     but: was "BA302OZ"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[59]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;IA3020Z&quot;&#10;     but: was &quot;BA302OZ&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "IA3020Z"
+     but: was "BA302OZ"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[60]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;MT458IJ&quot;&#10;     but: was &quot;MT456BJ&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "MT458IJ"
+     but: was "MT456BJ"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[61]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;1B88338&quot;&#10;     but: was &quot;1B80338&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "1B88338"
+     but: was "1B80338"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[62]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;1828Z9Q&quot;&#10;     but: was &quot;1B25790&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "1828Z9Q"
+     but: was "1B25790"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[63]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;BZM2Z2Z&quot;&#10;     but: was &quot;BZM2227&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "BZM2Z2Z"
+     but: was "BZM2227"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[64]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;48Q48Z9&quot;&#10;     but: was &quot;4B04979&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "48Q48Z9"
+     but: was "4B04979"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[65]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;BSE5578&quot;&#10;     but: was &quot;BSE5579&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "BSE5578"
+     but: was "BSE5579"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[66]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[67]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[68]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;4B48282&quot;&#10;     but: was &quot;4B40262&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "4B48282"
+     but: was "4B40262"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[69]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;2T48211&quot;&#10;     but: was &quot;2T40211&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "2T48211"
+     but: was "2T40211"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[70]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[71]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;4B39378&quot;&#10;     but: was &quot;4B39376&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "4B39378"
+     but: was "4B39376"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[72]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;3B97238&quot;&#10;     but: was &quot;3B97236&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "3B97238"
+     but: was "3B97236"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[73]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;1B29485&quot;&#10;     but: was &quot;3B29485&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "1B29485"
+     but: was "3B29485"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[74]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;ZA834CF&quot;&#10;     but: was &quot;ZA834CO&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "ZA834CF"
+     but: was "ZA834CO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[75]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;4PZ18Z5&quot;&#10;     but: was &quot;4B21875&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "4PZ18Z5"
+     but: was "4B21875"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[76]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[77]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[78]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001"/>
+  <testcase name="test_addTwoNumbes[79]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[80]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[81]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;RK89AU&quot;&#10;     but: was &quot;RK891AU&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "RK89AU"
+     but: was "RK891AU"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[82]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;null&quot;&#10;     but: was &quot;PD935BG&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "null"
+     but: was "PD935BG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[83]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[84]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[85]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[86]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[87]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[88]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[89]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;null&quot;&#10;     but: was &quot;RK550AO&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "null"
+     but: was "RK550AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[90]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[91]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[92]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[93]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0">
+    <failure message="&#10;Expected: is &quot;null&quot;&#10;     but: was &quot;RK069AV&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "null"
+     but: was "RK069AV"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[94]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0.001">
+    <failure message="&#10;Expected: is &quot;N06264&quot;&#10;     but: was &quot;NO626AT&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "N06264"
+     but: was "NO626AT"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
+</failure>
+  </testcase>
+  <testcase name="test_addTwoNumbes[95]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+  <testcase name="test_addTwoNumbes[96]" classname="net.sf.javaanpr.test.RecognitionAllIt" time="0"/>
+</testsuite>

@@ -1,0 +1,400 @@
+-------------------------------------------------------------------------------
+Test set: net.sf.javaanpr.test.RecognitionAllIt2
+-------------------------------------------------------------------------------
+Tests run: 97, Failures: 44, Errors: 0, Skipped: 0, Time elapsed: 74.59 sec <<< FAILURE! - in net.sf.javaanpr.test.RecognitionAllIt2
+test_addTwoNumbes[0](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "PP587A0"
+     but: was "PP587AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[11](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "IRK2914"
+     but: was "RK291AT"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[16](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK867AD"
+     but: was "RK876AD"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[18](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "KY865AC"
+     but: was "RK865AC"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[24](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK896A0"
+     but: was "RK896AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[27](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "null"
+     but: was "LM633BD"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[30](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK819AS"
+     but: was "RK619AS"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[31](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK783AS"
+     but: was "RK763AS"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[33](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "S64Z1Z1"
+     but: was "SG47471"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[35](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "HA708AI"
+     but: was "RK708AI"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[38](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK892AF"
+     but: was "RK892AE"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[39](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "IXT0140"
+     but: was "RK101AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[41](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "BA288IM"
+     but: was "BA28IM"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[42](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "DK641AH"
+     but: was "DK41AH"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[46](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK181AG"
+     but: was "RK161AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[47](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "KI161AG"
+     but: was "RK161AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[48](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "KMB0RAK3"
+     but: was "KMBORAK"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[49](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "null"
+     but: was "BB135BO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[50](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK605AI"
+     but: was "RK605AB"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[51](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "8Y849A4"
+     but: was "BY649AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[52](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK718AA"
+     but: was "RK715AA"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[53](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "HK282AL"
+     but: was "RK22AH"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[54](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "N0450AM"
+     but: was "NO450AM"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[55](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "null"
+     but: was "RK300AG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[58](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "IBA3020"
+     but: was "BA302OZ"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[59](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "IA3020Z"
+     but: was "BA302OZ"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[60](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "MT458IJ"
+     but: was "MT456BJ"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[61](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "1B88338"
+     but: was "1B80338"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[62](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "1828Z9Q"
+     but: was "1B25790"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[63](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "BZM2Z2Z"
+     but: was "BZM2227"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[64](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "48Q48Z9"
+     but: was "4B04979"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[65](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "BSE5578"
+     but: was "BSE5579"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[68](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "4B48282"
+     but: was "4B40262"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[69](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "2T48211"
+     but: was "2T40211"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[71](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "4B39378"
+     but: was "4B39376"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[72](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "3B97238"
+     but: was "3B97236"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[73](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "1B29485"
+     but: was "3B29485"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[74](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "ZA834CF"
+     but: was "ZA834CO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[75](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "4PZ18Z5"
+     but: was "4B21875"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[81](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "RK89AU"
+     but: was "RK891AU"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[82](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "null"
+     but: was "PD935BG"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[89](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "null"
+     but: was "RK550AO"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[93](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "null"
+     but: was "RK069AV"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
+test_addTwoNumbes[94](net.sf.javaanpr.test.RecognitionAllIt2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "N06264"
+     but: was "NO626AT"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at net.sf.javaanpr.test.RecognitionAllIt2.test_addTwoNumbes(RecognitionAllIt2.java:93)
+
