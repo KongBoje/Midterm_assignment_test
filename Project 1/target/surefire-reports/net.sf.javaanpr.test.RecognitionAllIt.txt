@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.sf.javaanpr.test.RecognitionAllIt
 -------------------------------------------------------------------------------
-Tests run: 97, Failures: 44, Errors: 0, Skipped: 0, Time elapsed: 27.336 sec <<< FAILURE! - in net.sf.javaanpr.test.RecognitionAllIt
-test_addTwoNumbes[0](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.009 sec  <<< FAILURE!
+Tests run: 97, Failures: 44, Errors: 0, Skipped: 0, Time elapsed: 27.346 sec <<< FAILURE! - in net.sf.javaanpr.test.RecognitionAllIt
+test_addTwoNumbes[0](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.01 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "PP587A0"
      but: was "PP587AO"
@@ -11,7 +11,7 @@ Expected: is "PP587A0"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[11](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[11](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "IRK2914"
      but: was "RK291AT"
@@ -29,7 +29,7 @@ Expected: is "RK867AD"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[18](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[18](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "KY865AC"
      but: was "RK865AC"
@@ -38,7 +38,7 @@ Expected: is "KY865AC"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[24](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[24](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "RK896A0"
      but: was "RK896AO"
@@ -47,7 +47,7 @@ Expected: is "RK896A0"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[27](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[27](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "null"
      but: was "LM633BD"
@@ -74,7 +74,7 @@ Expected: is "RK783AS"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[33](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[33](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "S64Z1Z1"
      but: was "SG47471"
@@ -101,7 +101,7 @@ Expected: is "RK892AF"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[39](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[39](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "IXT0140"
      but: was "RK101AO"
@@ -128,7 +128,7 @@ Expected: is "DK641AH"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[46](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[46](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "RK181AG"
      but: was "RK161AG"
@@ -137,7 +137,7 @@ Expected: is "RK181AG"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[47](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[47](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "KI161AG"
      but: was "RK161AG"
@@ -155,7 +155,7 @@ Expected: is "KMB0RAK3"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[49](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[49](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "null"
      but: was "BB135BO"
@@ -164,7 +164,7 @@ Expected: is "null"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[50](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[50](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "RK605AI"
      but: was "RK605AB"
@@ -200,7 +200,7 @@ Expected: is "HK282AL"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[54](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[54](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "N0450AM"
      but: was "NO450AM"
@@ -218,7 +218,7 @@ Expected: is "null"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[58](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[58](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "IBA3020"
      but: was "BA302OZ"
@@ -236,7 +236,7 @@ Expected: is "IA3020Z"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[60](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[60](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "MT458IJ"
      but: was "MT456BJ"
@@ -245,7 +245,7 @@ Expected: is "MT458IJ"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[61](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[61](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "1B88338"
      but: was "1B80338"
@@ -281,7 +281,7 @@ Expected: is "48Q48Z9"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[65](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
+test_addTwoNumbes[65](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "BSE5578"
      but: was "BSE5579"
@@ -317,7 +317,7 @@ Expected: is "4B39378"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[72](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[72](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "3B97238"
      but: was "3B97236"
@@ -335,7 +335,7 @@ Expected: is "1B29485"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[74](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[74](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "ZA834CF"
      but: was "ZA834CO"
@@ -371,7 +371,7 @@ Expected: is "null"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[89](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[89](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "null"
      but: was "RK550AO"
@@ -389,7 +389,7 @@ Expected: is "null"
 	at org.junit.Assert.assertThat(Assert.java:923)
 	at net.sf.javaanpr.test.RecognitionAllIt.test_addTwoNumbes(RecognitionAllIt.java:93)
 
-test_addTwoNumbes[94](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0.001 sec  <<< FAILURE!
+test_addTwoNumbes[94](net.sf.javaanpr.test.RecognitionAllIt)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: 
 Expected: is "N06264"
      but: was "NO626AT"
