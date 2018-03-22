@@ -49,4 +49,13 @@ public class JokeFetcherIT {
         
         assertEquals(jf.getJokes(jokes, tz).getJokes().size(), 3);
     }
+    
+    
+    @Test(expected = JokeException.class)
+    public void testException() throws JokeException{
+        JokeFetcher jf = new JokeFetcher();
+        jf.getJokes("yourmama","Europe/Copenhagen");
+    }
+    
+    
 }
