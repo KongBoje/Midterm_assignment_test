@@ -8,3 +8,6 @@ problems you might have discovered with the test and, your suggestions for ways 
 been fixed.
 - The steps you took to include Hamcrest matchers in the project, and the difference they made for
 the test
+
+<br />
+(will change it to only show the test class we've made)
