@@ -1,12 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package TestClasses;
 
 import java.util.ArrayList;
-import org.junit.Before;
+import java.util.Date;
 import org.junit.Test;
 import testex.DateFormatter;
 import testex.JokeException;
@@ -15,44 +10,36 @@ import static org.hamcrest.CoreMatchers.is;
 import org.junit.Assert;
 import static org.junit.Assert.assertNotNull;
 
-/**
- *
- * @author Micha
- */
 public class DateFormatterIT {
 
     private static final Logger logger = Logger.getLogger(DateFormatterIT.class.getName());
 
-    ;
-    
-    public DateFormatterIT() {
-    }
-
-    @Before
-    public void setUp() {
-
-    }
-
     @Test(expected = JokeException.class)
     public void getFormattedDateTest() throws JokeException {
-        DateFormatter.getFormattedDate("ImNotLegal");
+        Date date = new Date();
+        DateFormatter df = new DateFormatter();
+        df.getFormattedDate(date, "ImNotLegal");
     }
-
     
     @Test
     public void testGetFormattedDate() throws JokeException {
         String testStrings[] = {"Europe/Copenhagen", "Asia/Kolkata"};
+        Date date = new Date();
+        DateFormatter df = new DateFormatter();
         
         for (String tmp : testStrings)
-            DateFormatter.getFormattedDate(tmp);
+            df.getFormattedDate(date, tmp);
     }
     
     @Test
     public void testGetFormattedDate2() throws JokeException {
         String testStrings[] = {"Europe/Copenhagen", "NST"};
         ArrayList<String> ar = new ArrayList();
+        Date date = new Date();
+        DateFormatter df = new DateFormatter();
+        
         for (String tmp : testStrings) {
-            ar.add(DateFormatter.getFormattedDate(tmp));
+            ar.add(df.getFormattedDate(date, tmp));
         }
         for (String string : ar) {
             assertNotNull(string);

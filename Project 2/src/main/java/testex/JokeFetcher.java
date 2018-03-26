@@ -2,7 +2,9 @@
 package testex;
 import static com.jayway.restassured.RestAssured.given;
 import com.jayway.restassured.response.ExtractableResponse;
+import interfaces.IDateFormatter;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -10,6 +12,14 @@ import java.util.List;
  */
 public class JokeFetcher {
   
+    //For the use of Inversion of Control and Dependency injection
+    private final IDateFormatter _dateFormatter; //Dependency
+    
+    public JokeFetcher(IDateFormatter dateFormatter){
+        //Injecting dependency in constructor
+        _dateFormatter = dateFormatter;
+    }
+    
   /**
    * These are the valid types that can be used to indicate required jokes
    * eduprog: Contains joke related to programming and education. API only returns a new value each hour
@@ -71,7 +81,7 @@ public class JokeFetcher {
    * @param jokeTokens. Example (with valid values only): "eduprog,chucknorris,chucknorris,moma,tambal"
    * @return true if the param was a valid value, otherwise false
    */
-  boolean isStringValid(String jokeTokens){
+  public boolean isStringValid(String jokeTokens){
     String[] tokens = jokeTokens.split(",");
       for(String token: tokens){
       if(!availableTypes.contains(token)){
@@ -88,9 +98,9 @@ public class JokeFetcher {
    * @param timeZone. Must be a valid timeZone string as returned by: TimeZone.getAvailableIDs()  
    * @return A Jokes instance with the requested jokes + time zone adjusted string representing fetch time
    * (the jokes list can contain null values, if a server did not respond correctly)
-   * @throws JokeException. Thrown if either of the two input arguments contains illegal values
+     * @throws testex.JokeException
    */
-  public Jokes getJokes(String jokesToFetch,String timeZone) throws JokeException{
+  public Jokes getJokes(String jokesToFetch, String timeZone) throws JokeException{
     if(!isStringValid(jokesToFetch)){
       throw new JokeException("Inputs (jokesToFetch) contain types not recognized");
     }
@@ -104,7 +114,8 @@ public class JokeFetcher {
         case "tambal" : jokes.addJoke(getTambalJoke());break;
       }
     }
-    String timeZoneString = DateFormatter.getFormattedDate(timeZone);
+    Date date = new Date();
+    String timeZoneString = _dateFormatter.getFormattedDate(date, timeZone); //Delegating the responsibility
     jokes.setTimeZoneString(timeZoneString);
     return jokes;
   }
@@ -112,9 +123,11 @@ public class JokeFetcher {
   /**
    * DO NOT TEST this function. It's included only to get a quick way of executing the code
    * @param args 
+     * @throws testex.JokeException 
    */
   public static void main(String[] args) throws JokeException {
-    JokeFetcher jf = new JokeFetcher();
+    DateFormatter dateFormatter = new DateFormatter();
+    JokeFetcher jf = new JokeFetcher(dateFormatter);
     Jokes jokes = jf.getJokes("eduprog,chucknorris,chucknorris,moma,tambal","Europe/Copenhagen");
     jokes.getJokes().forEach((joke) -> {
       System.out.println(joke);
