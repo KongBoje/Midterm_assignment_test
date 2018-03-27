@@ -82,4 +82,9 @@ public class JokeFetcherIT {
 //        verify(dateFormatter).getFormattedDate(date, "Europe/Copenhagen");
     }
 
+    
+    // file:///C:/Users/Micha/Downloads/Midterm%20AssignmentNEW.pdf 8
+    // https://github.com/AlexanderFalk/jokesproject2/blob/master/test/FetcherTest.java
+    // https://www.tutorialspoint.com/java/java_polymorphism.htm
+    // 
 }

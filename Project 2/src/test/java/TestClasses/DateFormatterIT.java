@@ -5,14 +5,11 @@ import java.util.Date;
 import org.junit.Test;
 import testex.DateFormatter;
 import testex.JokeException;
-import java.util.logging.Logger;
 import static org.hamcrest.CoreMatchers.is;
 import org.junit.Assert;
 import static org.junit.Assert.assertNotNull;
 
 public class DateFormatterIT {
-
-    private static final Logger logger = Logger.getLogger(DateFormatterIT.class.getName());
 
     @Test(expected = JokeException.class)
     public void getFormattedDateTest() throws JokeException {
