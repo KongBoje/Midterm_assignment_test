@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestClasses.JokeFetcherIT" time="2.716" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="TestClasses.JokeFetcherIT" time="0.297" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -62,9 +62,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TestClasses.JokeFetcherIT" name="isStringValidTest" time="0.015"/>
-  <testcase classname="TestClasses.JokeFetcherIT" name="getJokesTestMock" time="2.326"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="tambalJokeMockTest" time="0.016"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="availableTypesMockTest" time="0"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="isStringValidTest" time="0"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="momaJokeMockTest" time="0"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="eduJokeMockTest" time="0"/>
   <testcase classname="TestClasses.JokeFetcherIT" name="exceptionTest" time="0"/>
-  <testcase classname="TestClasses.JokeFetcherIT" name="getJokesTest" time="0.125"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="chuckJokeMockTest" time="0"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="getJokesTest" time="0"/>
+  <testcase classname="TestClasses.JokeFetcherIT" name="getJokesTestStateBasedMock" time="0"/>
   <testcase classname="TestClasses.JokeFetcherIT" name="getAvailableTypesTest" time="0"/>
 </testsuite>
