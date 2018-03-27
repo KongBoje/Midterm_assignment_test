@@ -38,7 +38,7 @@ public class JokeFetcherIT {
     IFetcherFactory factory;
     
     @Mock
-    List<IJokeFetcher> data;
+    List<IJokeFetcher> results;
 
     @Mock
     EduJoke eduJoke;
@@ -127,11 +127,11 @@ public class JokeFetcherIT {
                 + "George replied: 'I can’t. Besides, I never said it was.'";
         when(eduJoke.getJoke()).thenReturn(new Joke(educJoke, "http://jokes-plaul.rhcloud.com/api/joke"));
         assertThat(eduJoke.getJoke().getReference(), equalTo("http://jokes-plaul.rhcloud.com/api/joke"));
-        data.add(eduJoke);
-        verify(data).add(eduJoke);
+        results.add(eduJoke);
+        verify(results).add(eduJoke);
         
-        when(data.size()).thenReturn(1);
-        assertThat(data.size(), equalTo(1));
+        when(results.size()).thenReturn(1);
+        assertThat(results.size(), equalTo(1));
     }
 
     @Test
@@ -139,11 +139,11 @@ public class JokeFetcherIT {
         String chuckJoke = "Chuck Norris can make a class that is both abstract and final.";
         when(chuckNorris.getJoke()).thenReturn(new Joke(chuckJoke, "http://api.icndb.com/jokes/random"));
         assertThat(chuckNorris.getJoke().getReference(), equalTo("http://api.icndb.com/jokes/random"));
-        data.add(chuckNorris);
-        verify(data).add(chuckNorris);
+        results.add(chuckNorris);
+        verify(results).add(chuckNorris);
         
-        when(data.size()).thenReturn(1);
-        assertThat(data.size(), equalTo(1));
+        when(results.size()).thenReturn(1);
+        assertThat(results.size(), equalTo(1));
     }
 
     @Test
@@ -151,11 +151,11 @@ public class JokeFetcherIT {
         String momaJoke = "Yo mamas so fat everytime she turns around its her birthday";
         when(moma.getJoke()).thenReturn(new Joke(momaJoke, "http://api.yomomma.info/"));
         assertThat(moma.getJoke().getReference(), equalTo("http://api.yomomma.info/"));
-        data.add(moma);
-        verify(data).add(moma);
+        results.add(moma);
+        verify(results).add(moma);
         
-        when(data.size()).thenReturn(1);
-        assertThat(data.size(), equalTo(1));
+        when(results.size()).thenReturn(1);
+        assertThat(results.size(), equalTo(1));
     }
 
     @Test
@@ -164,11 +164,11 @@ public class JokeFetcherIT {
                 + "with lab and mat you get the programming platform matlab!";
         when(tambal.getJoke()).thenReturn(new Joke(tambalJoke, "http://tambal.azurewebsites.net/joke/random"));
         assertThat(tambal.getJoke().getReference(), equalTo("http://tambal.azurewebsites.net/joke/random"));
-        data.add(tambal);
-        verify(data).add(tambal);
+        results.add(tambal);
+        verify(results).add(tambal);
         
-        when(data.size()).thenReturn(1);
-        assertThat(data.size(), equalTo(1));
+        when(results.size()).thenReturn(1);
+        assertThat(results.size(), equalTo(1));
     }
     
     @Test
