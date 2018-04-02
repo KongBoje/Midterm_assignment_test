@@ -7,4 +7,4 @@ This is our test for Project 1 [RecognitionAllIT](https://github.com/KongBoje/Mi
 
 Project 2 [here](https://github.com/KongBoje/Midterm_assignment_test/tree/master/Project%202/src)
 
-Project 3 link here:
+Project 3 [here](https://github.com/KongBoje/Midterm_assignment_test/tree/master/Project%203/src)
