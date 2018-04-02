@@ -9,16 +9,13 @@ package com.mycompany.monoply_testing;
  *
  * @author Opinator
  */
-public interface BoardI {
+public interface GameI {
     
     
-    
-    
-    public PlayerI[][] getBoard();
-    
-    
-    
+    void setup();
+    void move(PlayerI player);
+    PlayerI getPlayer();
+    void endGame();
     
     
 }
-
