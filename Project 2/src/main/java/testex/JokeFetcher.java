@@ -23,7 +23,8 @@ public class JokeFetcher {
     
     public JokeFetcher(IDateFormatter dateFormatter, IFetcherFactory factory){
         //Injecting dependency in constructor
-        _dateFormatter = dateFormatter;
+        this._dateFormatter = dateFormatter;
+        this.factory = factory;
     }
     
   /**
